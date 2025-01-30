@@ -277,20 +277,69 @@
 
 
 
-class Human{
-   private int age;
-    String name;
-}
-public class JavaBasics {
+// class Human{
+//    private int age;
+//    private String name;
+ ////Constructor///////
+//    public Human(){
+//     int a = 10;
+//     String n = "Ayush";
+//    }
 
-public static void main(String[] args) {
+//    public Human (int a , String n){ /////// PARAMETRIZED CONSTRUCTOR ////
+//     age = a;
+//     name = n;
+//    }
+
+
+// public int getAge() {
+//     return age;
+// }
+// public void setAge(int age) {
+//     this.age = 10;
+// }
+// public String getName() {
+//     return name;
+// }
+// public void setName(String name) {
+//     this.name = "Ayush" ;
+// }
+
+   
+
+//    public int getAge(){
+//      return age ;
+//    }
+
+//    public void setAge(int a){
+//     age =a;
+//    }
+
+//    public void setName(String n){
+//     name = n;
+//    }
+//    public String getName(){
+//     return name;
+//    }
+// }
+// public class JavaBasics {
+
+// public static void main(String[] args) {
 
     //////////// Encapsulation Concept /////////////////////////
-    Human obj = new Human();
-    obj.age = 20;
-    obj.name = "Ayush";
+    // Human obj = new Human();
+    // Human obj1 = new Human(23 , "Ayush");
+    // obj.age = 20;
+    // obj.name = "Ayush";
 
-    System.out.println(obj.name);
+    // obj.setAge(12);
+    // obj.setName("Ayush");
+
+    // System.out.println(obj.getAge());
+    // System.out.println(obj.getName());
+// System.out.println(obj.getAge()+ ":" + obj.getName());
+
+    // System.out.println(obj.name);
 
 
 
@@ -319,5 +368,45 @@ public static void main(String[] args) {
 
 
 
+// }
+// }
+
+
+
+
+
+/////////////  INHERITANCE CONCEPT //////////////
+
+
+class Calc extends JavaBasics{
+    public int add(int n1 , int n2){
+    return n1 + n2;
+    }
+
+    public int sub(int n1 , int n2){
+        return n1 - n2;
+        }
+
+        public int multi(int n1 , int n2){
+            return n1 * n2;
+            }
+
+         public int div(int n1 , int n2){
+                return n1 / n2;
+                }
+            
+        
 }
+public class JavaBasics {
+
+    public static void main(String[] args) {
+
+        Calc obj = new Calc();
+        int r1 = obj.add(10 , 2);
+        int r2 = obj.sub(10,2);
+        int r3 = obj.multi(10 , 2);
+        int r4 = obj.div(10 , 2);
+        System.out.println(r4);
+    }
 }
+    
