@@ -277,10 +277,24 @@
 
 
 
-
+class Human{
+   private int age;
+    String name;
+}
 public class JavaBasics {
 
 public static void main(String[] args) {
+
+    //////////// Encapsulation Concept /////////////////////////
+    Human obj = new Human();
+    obj.age = 20;
+    obj.name = "Ayush";
+
+    System.out.println(obj.name);
+
+
+
+
     // StringBuffer sb = new StringBuffer("Ayush");
     // // System.out.println(sb.capacity());
     // sb.append(" sharma");
