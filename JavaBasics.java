@@ -378,35 +378,56 @@
 /////////////  INHERITANCE CONCEPT //////////////
 
 
-class Calc extends JavaBasics{
-    public int add(int n1 , int n2){
-    return n1 + n2;
-    }
+// class Calc extends JavaBasics{
+//     public int add(int n1 , int n2){
+//     return n1 + n2;
+//     }
 
-    public int sub(int n1 , int n2){
-        return n1 - n2;
-        }
+//     public int sub(int n1 , int n2){
+//         return n1 - n2;
+//         }
 
-        public int multi(int n1 , int n2){
-            return n1 * n2;
-            }
+//         public int multi(int n1 , int n2){
+//             return n1 * n2;
+//             }
 
-         public int div(int n1 , int n2){
-                return n1 / n2;
-                }
+//          public int div(int n1 , int n2){
+//                 return n1 / n2;
+//                 }
             
         
-}
-public class JavaBasics {
+// }
+// public class JavaBasics {
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        Calc obj = new Calc();
-        int r1 = obj.add(10 , 2);
-        int r2 = obj.sub(10,2);
-        int r3 = obj.multi(10 , 2);
-        int r4 = obj.div(10 , 2);
-        System.out.println(r4);
-    }
-}
+//         Calc obj = new Calc();
+//         int r1 = obj.add(10 , 2);
+//         int r2 = obj.sub(10,2);
+//         int r3 = obj.multi(10 , 2);
+//         int r4 = obj.div(10 , 2);
+//         System.out.println(r4);
+//     }
+// }
     
+
+
+class A
+{
+
+}
+
+class B extends A
+{
+  public B(){
+    System.out.println("in B");
+  }
+}
+public class JavaBasics{
+    public static void main(String[] args) {
+        B obj = new B();
+        // System.out.println("Chal bhai ");
+}
+
+ public JavaBasics
+}
