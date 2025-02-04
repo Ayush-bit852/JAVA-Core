@@ -412,22 +412,87 @@
     
 
 
-class A
-{
+// interface A{
+//     void show();
+//     void config();
+//     int age = 22;
+//     String area = "Mumbai";
+// }
 
-}
+// class B implements A
+// {
+    
+    
+//     public void show(){
+//         System.out.println("in B");
+//     }
+//     public void config(){
+//         System.out.println("in config");
+//     }
+// }
+// class B extends A
+// {
+//   public B(){
+//     System.out.println("in B");
+//   }
+// }
 
-class B extends A
-{
-  public B(){
-    System.out.println("in B");
-  }
-}
+
+
+// enum Status{
+//     Running , Failed , Pending , Success;
+// }
+
+// class A{
+//     public void show()
+//     {
+//         System.out.println("in A show");
+//     }
+// }
+// class B extends A{
+//     public void show()
+//     {
+//         System.out.println("in B show");
+//     }
+// }
+
+
+
+@FunctionalInterface
+interface A
+ {
+    void show();
+ }
+
 public class JavaBasics{
     public static void main(String[] args) {
-        B obj = new B();
-        // System.out.println("Chal bhai ");
-}
+    //    A obj;
+    //    obj = new B();
+    //    obj.show();
+    //    obj.config();
 
- public JavaBasics
-}
+    // //    System.out.println(obj.age);
+    // //    System.out.println(obj.area);   ///// Should be accesed in Static way (A.area , A.age ) ////
+
+    // System.out.println(A.age);
+    // System.out.println(A.area);
+
+        // int i = 5;
+
+        // Status s = Status.Running;
+        // System.out.println(s);
+        
+        // B obj = new B();
+        // obj.show();
+    
+        A obj = () -> System.out.println("in show");
+
+        obj.show();
+            
+        }
+
+    }
+
+
+
+
