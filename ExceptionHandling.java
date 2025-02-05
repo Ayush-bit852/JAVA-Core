@@ -1,5 +1,5 @@
 public class ExceptionHandling {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ArithmeticException {
         //////////////////////////////////////////////////----------------------------//////////////////
         
         // try {
@@ -18,15 +18,34 @@ public class ExceptionHandling {
 
         int i = 0;
         int j = 0;
-        try {      
-             j = 18/i;
-        }
-        catch (ArithmeticException e) {
-            System.out.println(e);
-
-        }
+        j = 18/i;
         //  System.out.println(j);
 
          System.out.println("Byee");
+
+
     }
 }
+
+
+//class DivideByZeroException extends RuntimeException {
+//    public DivideByZeroException(String m) {
+//        super(m);
+//    }
+//}
+//public class Geeks {
+//    public static void divide(int a, int b) {
+//        if (b == 0) {
+//            throw new DivideByZeroException("Division by zero is not allowed.");
+//        }
+//        System.out.println("Result: " + (a / b));
+//    }
+//
+//    public static void main(String[] args) {
+//        try {
+//            divide(10, 0);
+//        } catch (DivideByZeroException e) {
+//            System.out.println("Caught Exception: " + e.getMessage());
+//        }
+//    }
+//}
