@@ -42,7 +42,21 @@ public class ExceptionHHandling {
         System.out.println("Byee");
     }
 }
+//class TooYoungException extends Exception {
+//    public TooYoungException(String m){
+//        super(m);  // Message will be deployed
+//    }
+//}
 
+//public class ExceptionHHandling{
+//    public static void validate (int age )
+//        throws TooYoungException{
+//        if (age <18){
+//            throw new TooYoungException("You are too young for Marriage ");
+//        }
+//        System.out.println("Valid: " + age );
+//    }
+//}
 
 
 // class InvalidAgeException extends Exception {
