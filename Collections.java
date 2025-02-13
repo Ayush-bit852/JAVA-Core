@@ -8,17 +8,17 @@ public class Collections {
 //        list.add(4);
 //        list.add(3);
 //
-////        System.out.println(list.size());
+//        System.out.println(list.size());
 //
 //        list.add(9);
-////        System.out.println(list.get(3));
+//        System.out.println(list.get(3));
 //        list.addFirst(87);
-////        System.out.println(list.indexOf(87));
-////        System.out.println(list.indexOf(1));
-////        System.out.println(list.indexOf(4));
-////        System.out.println(list.indexOf(3));
+//        System.out.println(list.indexOf(87));
+//        System.out.println(list.indexOf(1));
+//        System.out.println(list.indexOf(4));
+//        System.out.println(list.indexOf(3));
 ////        System.out.println(list.indexOf(9));
-//
+
 //        System.out.println(Arrays.toString(list.toArray()));
 
 
@@ -57,6 +57,15 @@ public class Collections {
 //        }
 
 
+        Set<String> set = new HashSet<>();
+//        set.add("a");
+//        set.add("b");
+//        set.add("c");
+//        set.add("a");
+//
+
+
+//        System.out.println("set:" +set);
 
 
     ///////////////////////////---------------------- Maps-----------------------------////////////////////////////////////////////////////////////////////////////////////////////////
