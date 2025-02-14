@@ -49,7 +49,6 @@ public class  HashMapDemo {
 //
 //        Set<Map.Entry<Integer, String>> entries = map.entrySet();
 //
-
     HashMap<String , Integer> fruitmap = new HashMap<>() ;
     fruitmap.put("Mango" , 50);
     fruitmap.put("banana" , 60);
