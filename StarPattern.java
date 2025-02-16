@@ -15,4 +15,7 @@ public class StarPattern {
         int k = 5;
         StarRightTriangle(k);
     }
+
+
+
 }
