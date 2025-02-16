@@ -46,7 +46,6 @@ public class Comparable_Comparator {
 
         System.out.println(emps);
 
-        Collections.sort(emps);
 
 
     }
