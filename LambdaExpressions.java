@@ -11,6 +11,7 @@
             FuncInterface fobj = (int x) -> System.out.println(2 * x);
 
             fobj.abstractFun(5);
+
         }
     }
 
